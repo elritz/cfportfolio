@@ -1,5 +1,5 @@
-#endpoint: https://personal-production-b2da068a33.herokuapp.com/christians-backend-prod/prod
-endpoint: https://personal-production-b2da068a33.herokuapp.com/christians-website-prod/prod
+#endpoint: https://personal-production-b2da068a33.herokuapp.com/christians-website-prod/prod
+endpoint: https://personal-production-e572dde12c.herokuapp.com/christians-website/prod
 datamodel: datamodel.graphql
 secret: ${env:PRISMA_SECRET}
 hooks:
