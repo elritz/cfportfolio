@@ -7,7 +7,7 @@ import Head from 'next/head';
 const SingleItemStyles = styled.div`
   max-width: 1200px;
   margin: 2rem auto;
-  margin-top: 800px;
+  margin-top: 10vh;
   box-shadow: ${props => props.theme.bs};
   display: grid;
   grid-auto-columns: 1fr;

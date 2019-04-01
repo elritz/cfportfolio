@@ -3,7 +3,7 @@ import { Mutation } from 'react-apollo';
 import gql from 'graphql-tag';
 import Router from 'next/router';
 import Form from './Form';
-// import Error from '../../ErrorMessage';
+import Error from '../ErrorMessage';
 import styled from 'styled-components';
 
 const SelectedImage = styled.img`
@@ -79,7 +79,7 @@ handleChange = e => {
                 query: { id: res.data.createPost.id }
             })
         }}>
-          {/* <Error error={error} /> */}
+          <Error error={error} />
             <fieldset disabled={loading} aria-busy={loading}>
             <label htmlFor="file">
                     Title

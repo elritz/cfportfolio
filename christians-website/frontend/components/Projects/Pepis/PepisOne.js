@@ -8,7 +8,7 @@ const profile = '../../../static/images/Pepis/Features/createprofile.svg';
 const findpepis = '../../../static/images/Pepis/Features/findpepis.svg';
 const deliver = '../../../static/images/Pepis/Features/deliver.svg';
 const design = '../../../static/images/Pepis/Features/design.svg';
-const photos = '../../../static/images/Pepis/Features/photos.png';
+const photos = '../../../static/images/Pepis/Features/photos.svg';
 
 
 const PepisOne = () => (
@@ -81,7 +81,8 @@ const PepisLogo = styled.img`
   transform: translateX(-50%);
 `;
 const PepisLabel = styled.img`
-  height: 125px;
+  width: 100%;
+  max-width: 500px;
   grid-row: 3;
   grid-column: 1 / -1;
   margin-top: 30px; margin-left: 50%;
@@ -104,6 +105,9 @@ const PepisLink = styled.div`
     text-decoration-color: #FF8000;
     }
   }
+  @media (max-width: 600px) {
+    font-size: 50px;
+  };
 `;
 
 const PepisFeatures = styled.div`
@@ -132,7 +136,10 @@ const HowToItem = styled.div`
     height: 550px;
     width: 80%;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 350px 100px;
+    grid-template-rows: 350px 350px;
+  };
+  @media (max-width: 600px) {
+    height: 600px;
   };
 `;
 const ImgBox = styled.img`
@@ -156,6 +163,7 @@ const ImgBox = styled.img`
     grid-column: 1 / -1;
     grid-row: 1 / 2;
   }
+  
 `;
 const TextBox = styled.div`
   /* background: yellow; */

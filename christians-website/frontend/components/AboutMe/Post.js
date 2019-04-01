@@ -4,13 +4,15 @@ import Link from 'next/link';
 import styled from 'styled-components';
 
 const PostStyle = styled.div`
+  /* background: blue; */
   height: 100%;
   width: 100%;
-  /* background: blue; */
   color: ${props => props.theme.offWhite};
   margin-top: 50px;
   img {
-    width: 60%;
+    border-radius: 2px;
+    width: 60vw;
+    max-width: 700px;
     margin-left: 50%;
     transform: translateX(-50%);
     @media (max-width:1000px) {
@@ -35,6 +37,7 @@ export default class Post extends Component {
       <PostStyle>
         <h1>
         {post.image && <img src={post.image} alt={post.title} />}
+        <br/>
         <Link
             href={{
               pathname: '/post',
