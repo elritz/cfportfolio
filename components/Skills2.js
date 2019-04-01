@@ -115,7 +115,7 @@ const Line = styled.div`
     margin-right: -25px;
   };
   @media (max-width: 900px) {
-    margin-right: 95px;
+    margin-right: 100px;
   };
 `;
 const Object = styled.div`
@@ -173,7 +173,10 @@ const NumberLine = styled.div`
     justify-self: middle;
   };
   @media (max-width: 900px) {
-    margin-right: 100px;
+    margin-left: 10px;
+  };
+  @media (max-width: 600px) {
+    margin-right: 120px;
   };
 `;
 

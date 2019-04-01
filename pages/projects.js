@@ -8,7 +8,7 @@ const Intro = styled.p`
   font-size: 100px;
   font-weight: 200;
   margin-left: 10%;
-  height: 20vh;
+  height: 10vh;
   @media (max-width: 800px) {
     margin-top: 150px;
     font-size: 60px;

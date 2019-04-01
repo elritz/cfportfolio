@@ -72,6 +72,9 @@ const OuterBox = styled.div`
   @media (max-width: ${props => props.theme.mobileWidth} ) {
     grid-column: 1 / -1;
   }
+  @media (max-width: 600px) {
+    margin-top: 0px;
+  };
 `;
 const LabelImage = styled.img`
   grid-column: 2;
@@ -83,6 +86,9 @@ const LabelImage = styled.img`
   @media (max-width: ${props => props.theme.mobileWidth} ) {
     grid-column: 1 / -1;
   }
+  @media (max-width: 600px) {
+    height: 70px;
+  };
 `;
 const IOSImage = styled.img`
   grid-column: 2;
@@ -121,7 +127,7 @@ const VideoBox = styled.video`
 `;
  const CycleImage = styled.img`
   margin-top: 40px; 
-  height: 400px;
+  width: 100%;
   grid-column: 1 / -1;
   grid-row: 12; 
   z-index: 2;
@@ -148,6 +154,11 @@ const VideoBox = styled.video`
  @media (max-width: ${props => props.theme.mobileWidth} ) {
    grid-row: -1; 
   }
+  @media (max-width: 600px) {
+    padding: 0px;
+    font-size: 50px;
+    a {padding: 0px;}
+  };
 `;
 export default BarfriendsOne;
 
