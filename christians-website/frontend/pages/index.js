@@ -20,9 +20,8 @@ const Home = () => (
       <Head>
         <title>CF | About</title>
       </Head>
-    <PageTitle><u>A</u>bout Myself.</PageTitle>
-    <br/>
-    <Posts />
+    {/* <PageTitle><u>A</u>bout Myself.</PageTitle> */}
+    {/* <Posts /> */}
   </PageGrid>
 );
 export default Home
