@@ -32,8 +32,8 @@ const Inner = styled.div`
 
 injectGlobal`
 @font-face {
-  font-family: 'Montserrat', sans-serif;
-  src: url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600,700,800");
+  font-family: 'Roboto', sans-serif;
+  src: url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
   /* font-weight: normal; */
   font-style: normal;
 }
@@ -50,9 +50,10 @@ injectGlobal`
       margin: 0;
       font-size: 1.5rem;
       line-height: 2;
-      font-family: 'Montserrat';
+      font-family: 'Roboto';
       /* Control background to the page */
-      background: ${theme.black};
+      /* background: ${theme.black}; */
+      background: #044D3A;
       ::-webkit-scrollbar { 
     display: none; 
 }

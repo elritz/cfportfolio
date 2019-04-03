@@ -20,12 +20,14 @@ const style = '../static/images/skills/styled.png'
 
 
 const OuterBox = styled.div`
-  background: #111111;
+  background: #044D3A;
   display: grid;
+  position: absolute;
+  top: 0px; left: 0px; right: 0px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px ;
   height: 140vh;
-  width: 100vw;
+  width: 100%;
   font-family: Roboto Mono,Courier New,Courier,monospace!important;
   overflow: hidden;
   -moz-overflow:hidden;
@@ -136,7 +138,7 @@ min-width: 800px;
 `;
 const Content = styled.div`
   grid-column: 3 / 9;
-  color: #4D1ADA;
+  color: #433562;
   justify-self: start;
   font-size: 21px;
   font-weight: 400;
@@ -162,8 +164,8 @@ const NumberLine = styled.div`
   justify-self: end;
   margin-left: -10px;
   div {
-    color: grey;
-    font-weight: 600;
+    color: lightgrey;
+    font-weight: 400;
     height: 40px;
     line-height: 40px;
     font-size: 13px;
@@ -221,7 +223,7 @@ export default class Skills extends Component {
           <div>33</div> */}
         </NumberLine>
         <Line />
-        <Object className="zero"><Content>class <span style={{color: 'yellow', fontWeight: '600'}}>Christian Palvetzian</span> </Content></Object>
+        <Object className="zero"><Content>class <span style={{color: '#FFFF4F', fontWeight: '400'}}>Christian Palvetzian</span> </Content></Object>
         <Object className='one' ><Content>ׁ· · · <span style={{color: 'grey', fontWeight: '200'}}>// I'm ambitious and love new challenges :)</span></Content></Object>
         <Object className='two'><Content>ׁ· · · <span style={{color: 'grey', fontWeight: '200'}}>// My variety of skills us continuously expanding!</span></Content></Object>
         <Object className='three'><Content>ׁ· ·<span> constructor<span style={{color: 'white'}}>()</span> <span style={{color: 'white'}}> &#123;</span> </span></Content></Object>
@@ -229,7 +231,7 @@ export default class Skills extends Component {
         <Object className='five'><Content>ׁ· · ·<span style={{color: 'grey', fontWeight: '200'}}> <span style={{color: 'red'}} >this</span>.<span style={{color: '#22DD88'}}>dateofbirth</span> <span style={{color: 'red'}} >=</span>  <span style={{color: '#22DF33'}}>'03251995'</span></span> </Content></Object>
         <Object className='six'><Content>ׁ· · · <span style={{color: 'grey', fontWeight: '200'}}> <span style={{color: 'red'}} >this</span>.<span style={{color: '#22DD88'}}>email</span> <span style={{color: 'red'}} >=</span>  <span style={{color: '#22DF33'}}>'cpalvetzian@gmail.com'</span> </span></Content></Object>
         <Object className='seven'><Content>ׁ· ·<span style={{color: 'white'}}> &#125;</span></Content></Object>
-        <Object className='eight'><Content>ׁ· ·<span style={{color: '#ECFD2C'}} > workExperience<span style={{color: 'white'}}>()</span> <span style={{color: 'white'}}> &#123;</span> </span></Content></Object>
+        <Object className='eight'><Content>ׁ· ·<span style={{color: '#FFFF4F'}} > workExperience<span style={{color: 'white'}}>()</span> <span style={{color: 'white'}}> &#123;</span> </span></Content></Object>
         <Object className='nine'><Content>ׁ· · · ·<span>return<span style={{color: 'white'}}> [</span></span></Content></Object>
         <Object className='ten'><Content>ׁ· · · · · ·<span><span style={{color: 'white'}}> &#123;</span> <span style={{color: '#22DF33'}}>'2017-now'</span> :  <span style={{color: '#22DF33'}}>'Full-Stack for Pepi's Pizza website '</span>  </span> <span style={{color: 'white'}}>&#125;</span> </Content></Object>
         <Object className='eleven'><Content>ׁ· · · · · ·<span><span style={{color: 'white'}}> &#123;</span> <span style={{color: '#22DF33'}}>'2018-now'</span> :  <span style={{color: '#22DF33'}}>'Frontend Web and Mobile for Barfriends Inc.'</span>  </span> <span style={{color: 'white'}}>&#125;</span> </Content></Object>
@@ -237,8 +239,8 @@ export default class Skills extends Component {
         <Object className='thirteen'><Content>ׁ· · · · · ·<span><span style={{color: 'white'}}> &#123;</span> <span style={{color: '#22DF33'}}>'2018'</span> :  <span style={{color: '#22DF33'}}>'Full-Stack Designer / Developer for personal website'</span>  </span> <span style={{color: 'white'}}>&#125;</span> </Content></Object>
         <Object className='fourteen'><Content>ׁ· · · ·<span><span style={{color: 'white'}}> ]</span></span></Content></Object>
         <Object className='firteen'><Content>ׁ· ·<span><span style={{color: 'white'}}> &#125;</span></span></Content></Object>
-        <Object className='sixteen'><Content>ׁ· ·<span style={{color: '#ECFD2C'}} > skills<span style={{color: 'white'}}>()</span> <span style={{color: 'white'}}>&#123;</span> </span></Content></Object>
-        <Object className='seventeen'><Content>ׁ· · · ·<span> return<span style={{color: 'white'}}> [</span> <span style={{color: '#22DF33'}}>'HTML5.0 / CSS4 / Jquery / JS', 'React', 'Next.js', 'Apollo', 'AWS / Prisma', 'Node.js', 'Google API Console, Facebook Developer', 'Jest', 'Enzyme', 'Graphql', 'php', 'mySQL', 'SASS', 'Boostrap / Styled-components / Material UI', 'npm / yarn / brew', 'GIT/CVS', 'Slack / Github / BitBucket / Supernova / Notion' 'Firebase', 'Web Sockets', 'Wordpress', 'Sketch / Photoshop / After Effects', 'Fusions 360 / AutoDesk'</span> <span style={{color: 'white'}}> ]</span> </span></Content></Object>
+        <Object className='sixteen'><Content>ׁ· ·<span style={{color: '#FFFF4F'}} > skills<span style={{color: 'white'}}>()</span> <span style={{color: 'white'}}>&#123;</span> </span></Content></Object>
+        <Object className='seventeen'><Content>ׁ· · · ·<span> return<span style={{color: 'white'}}> [</span> <span style={{color: '#22DF33'}}>'HTML5.0 / CSS3 / Jquery / JS', 'React', 'Next.js', 'Apollo', 'AWS / Prisma', 'Node.js', 'Google API Console, Facebook Developer', 'Jest', 'Enzyme', 'Graphql', 'php', 'mySQL', 'SASS', 'Boostrap / Styled-components / Material UI', 'npm / yarn / brew', 'GIT/CVS', 'Slack / Github / BitBucket / Supernova / Notion' 'Firebase', 'Web Sockets', 'Wordpress', 'Sketch / Photoshop / After Effects', 'Fusions 360 / AutoDesk'</span> <span style={{color: 'white'}}> ]</span> </span></Content></Object>
         <Object className='eightteen'><Content>ׁ· · · ·<span style={{color: 'white'}}> ] </span></Content></Object>
         <Object className='nineteen'><Content>ׁ· ·<span><span style={{color: 'white'}}> &#125;</span></span></Content></Object>
       </OuterBox>

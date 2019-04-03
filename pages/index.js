@@ -1,27 +1,27 @@
 import styled from 'styled-components'
 import Head from 'next/head'
+import Profile from '../components/Home/Profile'
+import Current from '../components/Home/Current'
+import Projects from '../components/Home/Projects'
 
-import Posts from '../components/AboutMe/Posts'
-import CreatePost from '../components/AboutMe/CreatePost';
-import { PageTitle } from '../components/styles/TitleStyle'
+// import Posts from '../components/AboutMe/Posts'
+// import CreatePost from '../components/AboutMe/CreatePost';
+// import { PageTitle } from '../components/styles/TitleStyle'
 
 
-const PageGrid = styled.div`
-  color: black;
-  margin-top: 50vh;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  grid-row-gap: 40px;
+const Outerbox = styled.div`
 `;
 
 const Home = () => (
-  <PageGrid>
+  <Outerbox>
       <Head>
         <title>CF | About</title>
       </Head>
+    <Profile />
     {/* <PageTitle><u>A</u>bout Myself.</PageTitle> */}
+    <Current />
+    <Projects />
     {/* <Posts /> */}
-  </PageGrid>
+  </Outerbox>
 );
 export default Home
