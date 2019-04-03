@@ -19,9 +19,9 @@ const Nav = () => (
         <Link href='/skill'>
           <a>Skills</a>
         </Link>
-        <Link href='/contact'>
+        {/* <Link href='/contact'>
           <a>Contact</a>
-        </Link>
+        </Link> */}
       </LinkBox>
     </NavStyles>
   </NavBox>
