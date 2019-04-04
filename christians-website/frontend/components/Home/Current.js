@@ -8,13 +8,39 @@ const Outerbox = styled.div`
   grid-template-columns:1fr 3fr 2fr 3fr 1fr 1fr;
   grid-template-rows: 75px 300px 75px;
   margin-top: 600px;
+  @media (max-width: 1400px) {
+    margin-top: 750px;
+  };
   .current {
-    grid-column: 2 / 4;
-    grid-row: 2;
-  }
-  .previous {
-    grid-column: 4 /  6;
-    grid-row: 2;
+      grid-column: 2 / 6;
+      grid-row: 2;
+    @media (max-width: 1400px) {
+      margin-top: 10px;
+      grid-row: 2;
+      font-size: 45px;
+      line-height: 65px;
+    };
+    @media (max-width: 1200px) {
+      margin-top: 60px;
+      grid-column: 1 / -1;
+      font-size: 35px;
+      line-height: 55px;
+    };
+    @media (max-width: 750px) {
+      margin-top: 110px;
+      font-size: 25px;
+      line-height: 50px
+    };
+    @media (max-width: 600px) {
+      margin-top: 60px;
+      font-size: 26px;
+      line-height: 55px;
+    };
+    @media (max-width: 600px) {
+      margin-top: 60px;
+      font-size: 20px;
+      line-height: 55px;
+    };
   }
 `;
  const CurrentBox = styled.div`
@@ -30,11 +56,14 @@ const Outerbox = styled.div`
 const Current = () => (
   <Outerbox>
     <CurrentBox className="current">
-      I am currently freelancing working on a website for local businesses and developing a mobile app Barfriends.
+      I am currently freelancing working on a website for local businesses and developing a mobile app Barfriends. Below is a showcase of my biggest projects. I design, develop and manage all aspects for mobile apps, websites, webapps, and the UI/UX.
+      <br/>
+      <span style={{ fontWeight: '600', color: '#FF7000'}}>let me show you what I do...</span>
+      {/* Here is a showcase of my biggest projects.  */}
     </CurrentBox>
-    <CurrentBox className="previous">
+    {/* <CurrentBox className="previous">
       I am currently freelance developing for local businesses and for Upworks clients.
-    </CurrentBox>
+    </CurrentBox> */}
   </Outerbox>
 );
 
