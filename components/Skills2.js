@@ -30,7 +30,7 @@ const OuterBox = styled.div`
   width: 100%;
   font-family: Roboto Mono,Courier New,Courier,monospace!important;
   overflow: hidden;
-  -moz-overflow:hidden;
+  
   .zero {
     grid-row: 3;
   }

@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import styled, { ThemeProvider, injectGlobal } from 'styled-components';
-import Nav from '../components/Nav';
-import Meta from '../components/Meta';
-import StickyNav from './StickyNav';
+import React, { Component } from 'react'
+import styled, { ThemeProvider, injectGlobal } from 'styled-components'
+import Nav from '../components/Nav'
+import Meta from '../components/Meta'
+import Link from 'next/link'
 
 const theme = {
   red: '#FF0000',
@@ -63,6 +63,7 @@ injectGlobal`
       color: ${theme.offWhite};
     }
 `;
+
 export default class Page extends Component {
   render() {
     return (
