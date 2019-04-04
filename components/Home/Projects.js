@@ -255,7 +255,7 @@ const Projects = () => (
      <img className="appstore" src={appstore} alt=""/>
      <img className="image" src={image} alt=""/>
      <BarfriendsLink>
-       <Link href="">
+       <Link href="/projects">
        <a>
        more...
        </a>
@@ -271,7 +271,7 @@ const Projects = () => (
       <img className="image3" src={image3} alt=""/>
       <img className="imagexlg" src={imagexlg} alt=""/>
       <PepisLink>
-       <Link href="">
+       <Link href="/projects">
        <a>
        more...
        </a>

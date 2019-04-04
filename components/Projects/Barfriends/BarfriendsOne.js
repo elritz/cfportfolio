@@ -13,7 +13,7 @@ const BarfriendsOne = () => (
     <AllBarfriends>
       <IconImage src={Icon} alt=""/>
       <LabelImage src={Label} alt=""/>
-      <Message>Don't grow up in a hurry</Message>
+      <Message>Cheers To Better Nights.</Message>
       <IOSImage src={IOS} alt=""/>
     </AllBarfriends>
     <PhoneImage src={Iphone} alt=""/>
@@ -33,7 +33,8 @@ const BarfriendsOne = () => (
 const OuterBox = styled.div`
   /* background: green; */
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 100px 100px 100px 100px 100px 50px 50px 100px;
   @media (max-width: ${props => props.theme.mobileWidth} ) {
     grid-template-rows: 100px 100px 100px 100px 100px 50px 50px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
@@ -128,6 +129,7 @@ const VideoBox = styled.video`
  const CycleImage = styled.img`
   margin-top: 40px; 
   width: 100%;
+  max-width: 600px;
   grid-column: 1 / -1;
   grid-row: 12; 
   z-index: 2;
