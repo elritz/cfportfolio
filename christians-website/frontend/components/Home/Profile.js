@@ -1,6 +1,6 @@
 import styled, { keyframes } from 'styled-components'
 
-const profilepic = '../../static/images/AboutMe/profilefake.jpg'
+const profilepic = '../../static/images/AboutMe/trio.jpg'
 
 // icons
 const github = '../../static/images/socialmedia/githubIcon.svg'
@@ -26,11 +26,12 @@ const ProfileImage = styled.img`
   grid-column: 3;
   grid-row: 3;
   justify-self: end;
-  border-radius: 75px;
-  height: 150px; width: 150px;
-  margin-top: 15px; 
+  border-radius: 25px;
+  height: 250px; width: 250px;
+  margin-right: 16px; 
   object-fit: cover;
   @media (max-width: 1400px) {
+    height: 160px; width: 160px;
     grid-column: 2;
   };
   @media (max-width: 800px) {
