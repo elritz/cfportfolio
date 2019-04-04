@@ -14,7 +14,7 @@
                         <mask id="mask-2" fill="white">
                             <use xlink:href="#path-1"></use>
                         </mask>
-                        <use id="Mask" fill="#3D3D3D" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <use id="Mask" fill="#FBFDFE" fill-rule="nonzero" xlink:href="#path-1"></use>
                     </g>
                 </g>
                 <g id="Group-2" transform="translate(198.500000, 63.000000)">

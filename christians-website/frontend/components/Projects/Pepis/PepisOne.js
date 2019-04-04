@@ -53,10 +53,21 @@ const PepisOne = () => (
         <ImgBox draggable="false" src={photos} alt=""/>
         <TextBox>
           <Title>Pictures You See</Title>
-          <Text>I photographed their products to showcase how amazing the product is. I staged the products in a natural lightbox, this gives a calmness to the product, this was to counter the darker theme of the website.</Text>
+          <Text>I photographed their products to showcase how amazing the product is. I staged the products in a natural lightbox, this gives a glow to the product.</Text>
         </TextBox>
       </HowToItem>
     </PepisFeatures>
+    {/* <ItemFeatures>
+      <Item className="pop">
+        <img draggable="false" src={design} alt=""/>
+      </Item>
+      <Item className="pizza">
+        <img draggable="false" src={findpepis} alt=""/>
+      </Item>
+      <Item className="cake" >
+        <img draggable="false" src={photos} alt=""/>
+      </Item>
+    </ItemFeatures> */}
   </OuterBox>
 );
 
@@ -65,14 +76,40 @@ export default PepisOne;
 
 
 const OuterBox = styled.div`
+  /* background: red; */
   margin-top: 100px;
-  /* background: green; */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
   grid-template-rows: 100px 100px 100px 100px 100px 1fr 1fr 1fr;
-  height: 150vh;
-  
+  height: 150vh; 
+  width: 100%;
+
 `;
+//  const ItemFeatures = styled.div`
+//   background: pink;
+//   grid-column: 1 / -1;
+//   display: grid;
+//   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+//   grid-template-rows: 1fr;
+//   grid-row: 10;
+//   margin-left: 50%;
+//   transform: translateX(-50%);
+//  `;
+//   const Item = styled.div`
+//   background: red;
+//   img {
+//     width: 200px;
+//   }
+//     .pop {
+//       grid-column: 2 / 3;
+//     }
+//     .pizza {
+//       grid-column: 3 / 4;
+//     }
+//     .cake {
+//       grid-column: 4 / 5;
+//     }
+//   `;
 const PepisLogo = styled.img`
   height: 150px;
   grid-row: 2;
@@ -108,6 +145,9 @@ const PepisLink = styled.div`
   @media (max-width: 600px) {
     font-size: 50px;
   };
+  @media (max-width: 400px) {
+    font-size: 30px;
+  };
 `;
 
 const PepisFeatures = styled.div`
@@ -139,7 +179,7 @@ const HowToItem = styled.div`
     grid-template-rows: 350px 350px;
   };
   @media (max-width: 600px) {
-    height: 600px;
+    height: 550px;
   };
 `;
 const ImgBox = styled.img`
@@ -186,6 +226,9 @@ const TextBox = styled.div`
     grid-row: 2;
     width: 100%;
   }
+  @media (max-width: 600px) {
+    margin-top: 0px;
+  };
 `;
 const Title = styled.h2`
   /* background: pink; */

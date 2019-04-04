@@ -6,43 +6,43 @@
     <defs>
         <path d="M240,1192.37421 L-6.5311479e-15,1012.5 L240,832.625786 L240,0 L1761.1028,0 L2029,343 L2296.8972,-1.13686838e-13 L3818,0 L3818,2025 L240,2025 L240,1192.37421 Z" id="path-1"></path>
         <linearGradient x1="50.0270696%" y1="99.9968237%" x2="50.0270696%" y2="-0.0119091499%" id="linearGradient-3">
-            <stop stop-color="#808080" stop-opacity="0.25" offset="0%"></stop>
-            <stop stop-color="#808080" stop-opacity="0.12" offset="54%"></stop>
-            <stop stop-color="#808080" stop-opacity="0.1" offset="100%"></stop>
+            <stop stop-color="#FCFDFF" stop-opacity="0.25" offset="0%"></stop>
+            <stop stop-color="#FCFDFF" stop-opacity="0.12" offset="54%"></stop>
+            <stop stop-color="#FCFDFF" stop-opacity="0.1" offset="100%"></stop>
         </linearGradient>
         <linearGradient x1="50.0123393%" y1="100%" x2="50.0123393%" y2="-0.0113701324%" id="linearGradient-4">
-            <stop stop-color="#808080" stop-opacity="0.25" offset="0%"></stop>
-            <stop stop-color="#808080" stop-opacity="0.12" offset="54%"></stop>
-            <stop stop-color="#808080" stop-opacity="0.1" offset="100%"></stop>
+            <stop stop-color="#FCFDFF" stop-opacity="0.25" offset="0%"></stop>
+            <stop stop-color="#FCFDFF" stop-opacity="0.12" offset="54%"></stop>
+            <stop stop-color="#FCFDFF" stop-opacity="0.1" offset="100%"></stop>
         </linearGradient>
         <linearGradient x1="37.9617109%" y1="101.734056%" x2="62.0355133%" y2="-1.73605702%" id="linearGradient-5">
-            <stop stop-color="#808080" stop-opacity="0.25" offset="0%"></stop>
-            <stop stop-color="#808080" stop-opacity="0.12" offset="54%"></stop>
-            <stop stop-color="#808080" stop-opacity="0.1" offset="100%"></stop>
+            <stop stop-color="#FCFDFF" stop-opacity="0.25" offset="0%"></stop>
+            <stop stop-color="#FCFDFF" stop-opacity="0.12" offset="54%"></stop>
+            <stop stop-color="#FCFDFF" stop-opacity="0.1" offset="100%"></stop>
         </linearGradient>
         <linearGradient x1="50%" y1="100.002688%" x2="50%" y2="0%" id="linearGradient-6">
             <stop stop-color="#FCFDFF" offset="0%"></stop>
             <stop stop-color="#80F1FF" offset="100%"></stop>
         </linearGradient>
         <linearGradient x1="49.9605333%" y1="99.9981983%" x2="49.9605333%" y2="0.0110847985%" id="linearGradient-7">
-            <stop stop-color="#808080" stop-opacity="0.25" offset="0%"></stop>
-            <stop stop-color="#808080" stop-opacity="0.12" offset="54%"></stop>
-            <stop stop-color="#808080" stop-opacity="0.1" offset="100%"></stop>
+            <stop stop-color="#FCFDFF" stop-opacity="0.25" offset="0%"></stop>
+            <stop stop-color="#FCFDFF" stop-opacity="0.12" offset="54%"></stop>
+            <stop stop-color="#FCFDFF" stop-opacity="0.1" offset="100%"></stop>
         </linearGradient>
         <linearGradient x1="49.9887072%" y1="100.019419%" x2="49.9887072%" y2="-0.0650986253%" id="linearGradient-8">
-            <stop stop-color="#808080" stop-opacity="0.25" offset="0%"></stop>
-            <stop stop-color="#808080" stop-opacity="0.12" offset="54%"></stop>
-            <stop stop-color="#808080" stop-opacity="0.1" offset="100%"></stop>
+            <stop stop-color="#FCFDFF" stop-opacity="0.25" offset="0%"></stop>
+            <stop stop-color="#FCFDFF" stop-opacity="0.12" offset="54%"></stop>
+            <stop stop-color="#FCFDFF" stop-opacity="0.1" offset="100%"></stop>
         </linearGradient>
         <linearGradient x1="50%" y1="100.003317%" x2="50%" y2="-0.00331668687%" id="linearGradient-9">
-            <stop stop-color="#808080" stop-opacity="0.25" offset="0%"></stop>
-            <stop stop-color="#808080" stop-opacity="0.12" offset="54%"></stop>
-            <stop stop-color="#808080" stop-opacity="0.1" offset="100%"></stop>
+            <stop stop-color="#FCFDFF" stop-opacity="0.25" offset="0%"></stop>
+            <stop stop-color="#FCFDFF" stop-opacity="0.12" offset="54%"></stop>
+            <stop stop-color="#FCFDFF" stop-opacity="0.1" offset="100%"></stop>
         </linearGradient>
         <linearGradient x1="49.9966875%" y1="100.010181%" x2="49.9966875%" y2="0.0226930268%" id="linearGradient-10">
-            <stop stop-color="#808080" stop-opacity="0.25" offset="0%"></stop>
-            <stop stop-color="#808080" stop-opacity="0.12" offset="54%"></stop>
-            <stop stop-color="#808080" stop-opacity="0.1" offset="100%"></stop>
+            <stop stop-color="#FCFDFF" stop-opacity="0.25" offset="0%"></stop>
+            <stop stop-color="#FCFDFF" stop-opacity="0.12" offset="54%"></stop>
+            <stop stop-color="#FCFDFF" stop-opacity="0.1" offset="100%"></stop>
         </linearGradient>
         <path d="M3537,800.471698 L3258,1012.5 L3537,1224.5283 L3537,2025 L0,2025 L0,0 L3537,0 L3537,800.471698 Z" id="path-11"></path>
         <path d="M3538,824.404255 L3797,1003.5 L3538,1182.59574 L3538,2006 L0,2006 L0,0 L3538,0 L3538,824.404255 Z M5178.65094,2029 L4020.83397,2029 L4020.83397,1822.19049 L6657.49553,1822.19049 L6657.49553,2029 L5610.34906,2029 L5394.5,2317 L5178.65094,2029 Z M3605,1250.3972 L3676.8667,1200.69499 L3943.1507,1200.69499 L3943.1507,1745.67117 L3605,1745.67117 L3605,1250.3972 Z M3605,756.602804 L3605,419.255802 L3943.1507,419.255802 L3943.1507,990.464037 L3605,756.602804 Z M3943.1507,1016.53596 L3943.1507,1124.17568 L3787.5095,1124.17568 L3943.1507,1016.53596 Z M6657.49553,16.2557636 L6657.49553,1745.67117 L4020.83397,1745.67117 L4020.83397,1538.60489 L6657.49553,16.2557636 Z M6683.97598,0.966546766 L6685.65001,1.92290628e-13 L7183,0 L7183,918.533784 L6734.01123,918.533784 L6734.01123,0.966546766 L6683.97598,0.966546766 Z M6532.6186,-2.27373675e-13 L5825.82759,408.085248 L5825.82759,342.736486 L4020.83397,342.736486 L4020.83397,0.966546766 L3943.1507,0.966546766 L3943.1507,342.736486 L3605,342.736486 L3605,0 L6532.6186,0 Z M5806.48053,419.255802 L4020.83397,1450.248 L4020.83397,419.255802 L5806.48053,419.255802 Z M3605,1822.19049 L3943.1507,1822.19049 L3943.1507,2029 L3605,2029 L3605,1822.19049 Z M7183,1745.67117 L6734.01123,1745.67117 L6734.01123,995.0531 L7183,995.0531 L7183,1745.67117 Z M7183,1822.19049 L7183,2029 L6734.01123,2029 L6734.01123,1822.19049 L7183,1822.19049 Z" id="path-13"></path>
@@ -56,7 +56,7 @@
                             <mask id="mask-2" fill="white">
                                 <use xlink:href="#path-1"></use>
                             </mask>
-                            <use id="Combined-Shape" fill="#BABABA" fill-rule="nonzero" xlink:href="#path-1"></use>
+                            <use id="Combined-Shape" fill="#FCFDFF" fill-rule="nonzero" xlink:href="#path-1"></use>
                             <g id="Group-13" mask="url(#mask-2)">
                                 <g transform="translate(278.000000, 235.536889)">
                                     <path d="M0,0 C718.643479,117.96515 1324.11602,176.947725 1816.41762,176.947725 C2308.71923,176.947725 2895.91335,120.098402 3578,6.39975613" id="Path-5" stroke="#262626" stroke-width="3"></path>
@@ -253,7 +253,7 @@
                                 <mask id="mask-12" fill="white">
                                     <use xlink:href="#path-11"></use>
                                 </mask>
-                                <use id="Combined-Shape" fill="#BABABA" fill-rule="nonzero" xlink:href="#path-11"></use>
+                                <use id="Combined-Shape" fill="#FCFDFF" fill-rule="nonzero" xlink:href="#path-11"></use>
                             </g>
                         </g>
                     </g>
@@ -326,7 +326,7 @@
                     <mask id="mask-14" fill="white">
                         <use xlink:href="#path-13"></use>
                     </mask>
-                    <use id="Mask" fill="#BABABA" fill-rule="nonzero" xlink:href="#path-13"></use>
+                    <use id="Mask" fill="#FCFDFF" fill-rule="nonzero" xlink:href="#path-13"></use>
                     <g mask="url(#mask-14)" id="Group-23" stroke-linecap="square">
                         <g transform="translate(-2816.000000, -1752.000000)">
                             <g transform="translate(6613.000000, 0.000000)">
