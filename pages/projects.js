@@ -3,7 +3,6 @@ import BarfriendsOne from '../components/Projects/Barfriends/BarfriendsOne'
 import PepisOne from '../components/Projects/Pepis/PepisOne'
 
 const OuterBox = styled.div`
-  /* width: 100vw; */
   position: absolute;
   left: 0px; right: 0px;
 `;

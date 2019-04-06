@@ -48,6 +48,7 @@ const Outerbox = styled.div`
  font-size: 24px;
  font-weight: 300;
  line-height: 50px;
+  height: 100%;
  color: white;
  padding: 30px;
 

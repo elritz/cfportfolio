@@ -64,7 +64,6 @@ const ProfilePosition = styled.div`
   background: white;
   color: ${props => props.theme.orange};
   overflow: hidden;
-  /* -ms-overflow-style: none; */
   grid-column: 4 / -1;
   grid-row: 5;
   margin-left: 5px;

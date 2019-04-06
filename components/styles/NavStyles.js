@@ -19,6 +19,7 @@ const LinkBox = styled.div`
   /* background: green;    */
   a,
   button {
+    color: ${props => props.theme.LightWhite};;
     border: 0;
     margin: 0px 15px;
     align-items: center;
