@@ -31,7 +31,6 @@ const BarfriendsOne = () => (
 
 
 const OuterBox = styled.div`
-  /* background: green; */
   display: grid;
   width: 100%;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;

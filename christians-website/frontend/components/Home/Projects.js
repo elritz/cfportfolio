@@ -17,14 +17,15 @@ const image3 = '../../static/images/Projects/pepis/image3.png'
 
 
 const Outerbox = styled.div`
-  background: white;
+  background: ${props => props.theme.offWhite};
   position: absolute;
   left: 0px; right: 0px;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 140px 500px 600px 600px;
+  grid-row-gap: 100px;
   height: 180vh;
-  min-height: 1600px;
+  min-height: 1950px;
   margin-top: 1000px;
   @media (max-width: 1400px) {
     margin-top: 1500px;
@@ -51,10 +52,10 @@ const Outerbox = styled.div`
     grid-row: 3;
     display: grid;
     grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 50px 50px;
     @media (max-width: 1400px) {
       left: 0px; right: 0px;
-      grid-template-rows: 100px 100px 100px 100px 100px 100px 50px 100px;
+      grid-template-rows: 100px 100px 100px 100px 100px 100px 50px 100px 50px 50px;
     };
     @media (min-width: 100px) {
       left: 0px; right: 0px;
@@ -93,6 +94,7 @@ const Outerbox = styled.div`
       margin-top: 45px;
       grid-column: 6 / 8 ;
       grid-row: 5;
+      box-shadow: ${props => props.theme.bs};
       @media (max-width: 1400px) {
         grid-column: 3 / 7;
       };
@@ -105,7 +107,7 @@ const Outerbox = styled.div`
       @media (max-width: 1400px) {
         grid-column: 2;
       };
-      @media (max-width: 650px) {
+      @media (max-width: 1000px) {
         display: none;
       };
     }
@@ -114,10 +116,11 @@ const Outerbox = styled.div`
       grid-column: 8;
       grid-row: 5;
       margin-right: 15px;
+      box-shadow: ${props => props.theme.bs};
       @media (max-width: 1400px) {
         grid-column: 7;
       };
-      @media (max-width: 650px) {
+      @media (max-width: 1000px) {
         display: none;
       };
     }
@@ -127,6 +130,7 @@ const Outerbox = styled.div`
       grid-column: 2 / 4;
       grid-row: 1 / 5;
       margin-top: 140px;
+      box-shadow: ${props => props.theme.bs};
       @media (max-width: 1400px) {
         display: none;
       };
@@ -136,7 +140,7 @@ const Outerbox = styled.div`
     position: absolute;
     display: grid;
     grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 100px 100px 100px 100px 100px 150px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 50px; 
     @media (max-width: 1400px) {
       left: 0px; right: 0px;
     };
@@ -160,10 +164,10 @@ const Outerbox = styled.div`
     .moto {
       grid-column: 1 / 5;
       grid-row: 4;
+        max-width: 400px;
       @media (max-width: 1400px) {
         margin-top: -20px;
         grid-column: 1 / -1;
-        max-width: 350px;
       };
     }
     .appstore {
@@ -189,60 +193,97 @@ const Outerbox = styled.div`
 
 `;
  const ProjectItem = styled.div`
+  /* background: red */
   margin-top: 100px;
 `;
  const BarfriendsLink = styled.div`
   background: ${props => props.theme.orange};
   box-shadow: ${props => props.theme.bs};
-  grid-column: 3;
-  grid-row: 6 / 7;
+  grid-column: 1 / -1;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  transform: skewX(10deg);
+  grid-row: 9;
   height: 50px;
-  transform: skew(-20deg);
   line-height: 50px;
   text-align: center;
   font-size: 25px;
   font-weight: 600;
   min-width: 200px;
   max-width: 200px;
+  margin-top: 70px;
   a {
     /* color: #044D3A; */
     color: white;
   }
   @media (max-width: 1400px) {
-    grid-row: 5;
+    grid-row: 6;
     grid-column: 1 / -1;
-    margin-left: 50%;
-    transform: translateX(-50%);
-    margin-top: 20px;
   };
  `;
  
  const PepisLink = styled.div`
   background: ${props => props.theme.orange};
+
   box-shadow: ${props => props.theme.bs};
-  grid-column: 3;
-  grid-row: 8;
+  grid-column: 1 / -1;
+  grid-row: 12;
   height: 50px;
-  transform: skew(-20deg);
+  margin-left: 50%;
+  transform: translateX(-50%);
+  transform: skewX(10deg);
   line-height: 50px;
   text-align: center;
   font-size: 25px;
   font-weight: 600;
   min-width: 200px;
   max-width: 200px;
+  margin-top: 50px;
   a {
     /* color: #044D3A; */
     color: white;
   }
  @media (max-width: 1400px) {
-    grid-row: 9;
+    grid-row: 12;
     grid-column: 1 / -1;
-    margin-left: 50%;
-    transform: translateX(-50%);
+
     margin-top: 20px;
   };
+  @media (max-width:850px) {
+  margin-top: 50px;
+  };
+  @media (max-width: 600px) {
+  margin-top: 100px;
+  };
+`;
+ const PepisDescription = styled.div`
+  grid-row: 9;
+  grid-column: 1 / -1;
+  padding: 0px 20px;
+  font-size: 18px;
+  text-align: center;
+  color: black;
 `;
 
+const BarfriendsDescription = styled.div`
+  grid-row: 7;
+  grid-column: 1 / -1;
+  padding: 0px 20px;
+  font-size: 18px;
+  text-align: center;
+  color: black;
+  margin-top: 20px;
+  @media (max-width: 1400px ) {
+    grid-row: 5;
+  };
+  @media (max-width: 1050px) {
+    grid-column: 2 / 8;
+  };
+  @media (max-width: 740px) {
+    margin-top: 0px;
+    grid-column: 1 / -1;
+  };
+`;
 
 
 const Projects = () => (
@@ -254,6 +295,9 @@ const Projects = () => (
      <img className="moto" src={moto} alt=""/>
      <img className="appstore" src={appstore} alt=""/>
      <img className="image" src={image} alt=""/>
+     <BarfriendsDescription>
+       Barfriends IOS application is built in Objective-C and migrating new files to Swift. Backend is hosting in AWS and Firebase. <br/> Project status: DEV
+     </BarfriendsDescription>
      <BarfriendsLink>
        <Link href="/projects">
        <a>
@@ -270,6 +314,9 @@ const Projects = () => (
       <img className="image2" src={image2} alt=""/>
       <img className="image3" src={image3} alt=""/>
       <img className="imagexlg" src={imagexlg} alt=""/>
+      <PepisDescription>
+        Pepi's Pizza website is a full stack web development project. The hackend is using Node.js, GraphQL, and Prisma. Frontend is ReactJS, Next.js, Apollo, Styled Components and Jest for testing.<br/> Project status: DEV 
+      </PepisDescription>
       <PepisLink>
        <Link href="/projects">
        <a>

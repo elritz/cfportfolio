@@ -20,7 +20,7 @@ const style = '../static/images/skills/styled.png'
 
 
 const OuterBox = styled.div`
-  background: #044D3A;
+  background: ${props => props.theme.green};
   display: grid;
   position: absolute;
   top: 0px; left: 0px; right: 0px;

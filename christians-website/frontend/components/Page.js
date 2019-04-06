@@ -10,9 +10,10 @@ const theme = {
   grey: '#3A3A3A',
   darkGrey: '#262626',
   lightgrey: '#E1E1E1',
-  offWhite: '#EDEDED',
+  offWhite: '#D6D7D6',
   LightWhite: '#EDEDED',
   orange: '#FF7000',
+  green: '#044D3A',
   maxWidth: '85vw',
   mobileWidth: '1000px',
   bs: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)',
@@ -20,6 +21,7 @@ const theme = {
 const StylePage = styled.div`
   color: ${props => props.theme.offWhite};
 `;
+
 const Inner = styled.div`
   max-width:100vw;
   margin-top: 2%;
@@ -53,7 +55,7 @@ injectGlobal`
       font-family: 'Roboto';
       /* Control background to the page */
       /* background: ${theme.black}; */
-      background: #044D3A;
+      background: ${theme.green};
       ::-webkit-scrollbar { 
     display: none; 
 }
