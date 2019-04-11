@@ -10,7 +10,7 @@ const gmail = '../../static/images/socialmedia/gmailIcon.svg'
 const Outerbox = styled.div`
   background: ${props => props.theme.orange};
   position: absolute;
-  top: 15vh; right: 0px;
+  top: 100px; right: 0px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 100px 120px 90px 60px 60px;

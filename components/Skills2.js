@@ -23,7 +23,7 @@ const OuterBox = styled.div`
   background: ${props => props.theme.green};
   display: grid;
   position: absolute;
-  top: 0px; left: 0px; right: 0px;
+  top: 100px; left: 0px; right: 0px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px ;
   height: 140vh;

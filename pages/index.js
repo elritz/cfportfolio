@@ -19,10 +19,8 @@ const Home = () => (
         <title>CF | About</title>
       </Head>
     <Profile />
-    {/* <PageTitle><u>A</u>bout Myself.</PageTitle> */}
     <Current />
     <Projects />
-    {/* <Posts /> */}
   </Outerbox>
 );
 export default Home

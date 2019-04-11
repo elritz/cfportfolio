@@ -4,7 +4,6 @@ import { PageTitle } from '../components/styles/TitleStyle';
 
 const PageGrid = styled.div`
   color: black;
-  margin-top: 20vh;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
