@@ -3,7 +3,7 @@ import styled from 'styled-components'
 const icon = '../../../static/images/BarfriendsApp/barfriendsIcon.svg';
 
 
-const BarfriendsOne = () => (
+const BarfriendsTwo = () => (
   <OuterBox>
     <Icon src={icon} alt=""/>
   </OuterBox>
@@ -31,5 +31,5 @@ const OuterBox = styled.div`
     grid-column: 1 / -1;
   }
 `;
-export default BarfriendsOne;
+export default BarfriendsTwo;
 

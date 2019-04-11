@@ -1,16 +1,19 @@
 import styled from 'styled-components'
-import BarfriendsOne from '../components/Projects/Barfriends/BarfriendsOne'
-import PepisOne from '../components/Projects/Pepis/PepisOne'
+import Head from 'next/head'
+import List from '../components/Works/List'
 
 const OuterBox = styled.div`
   position: absolute;
-  left: 0px; right: 0px;
+  top: 100px;  left: 0px; right: 0px;
 `;
 
 const Project = () => (
   <OuterBox>
-    <BarfriendsOne />
-    <PepisOne />
+      <Head>
+        <title>CF | Works</title>
+      </Head>
+      <List />
   </OuterBox>
 );
 export default Project;
+

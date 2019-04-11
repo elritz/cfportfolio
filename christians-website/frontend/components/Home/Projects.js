@@ -17,7 +17,7 @@ const image3 = '../../static/images/Projects/pepis/image3.png'
 
 
 const Outerbox = styled.div`
-  background: ${props => props.theme.offWhite};
+  background: ${props => props.theme.white};
   position: absolute;
   left: 0px; right: 0px;
   display: grid;
@@ -299,7 +299,7 @@ const Projects = () => (
        Barfriends IOS application is built in Objective-C and migrating new files to Swift. Backend is hosting in AWS and Firebase. <br/> Project status: DEV
      </BarfriendsDescription>
      <BarfriendsLink>
-       <Link href="/projects">
+       <Link href="/barfriends">
        <a>
        more...
        </a>
