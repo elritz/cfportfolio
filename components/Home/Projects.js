@@ -169,6 +169,9 @@ const Outerbox = styled.div`
         margin-top: -20px;
         grid-column: 1 / -1;
       };
+      @media (max-width: 600px) {
+        width: 90%;
+      };
     }
     .appstore {
       grid-column: 1 / 5;
@@ -253,7 +256,7 @@ const Outerbox = styled.div`
   margin-top: 50px;
   };
   @media (max-width: 600px) {
-  margin-top: 100px;
+  margin-top: 120px;
   };
 `;
  const PepisDescription = styled.div`
