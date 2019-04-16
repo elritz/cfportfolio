@@ -17,6 +17,7 @@ const Outerbox = styled.div`
   min-height: 550px; height: 56vh;
   width: 100vw;
   @media (max-width: 1000px) {
+    top: 140px;
     min-height: 550px; height: 75vh;
     grid-template-rows: 100px 120px 100px 100px 70px 100px;
   };
@@ -74,13 +75,19 @@ const ProfilePosition = styled.div`
   text-align: left;
   @media (max-width: 1400px) {
     grid-column: 1 / -1;
-    grid-row: 5;
+    grid-row: 4;
     height: 60px;
     font-size: 21px;
     line-height: 60px;
     text-align: center;
     margin-left: 0px;
-    margin-top: 20px;
+    margin-top: 80px;
+  };
+  @media (max-width: 500px) {
+    /* display: none; */
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 1px;
   };
 `;
  const ContactBox = styled.div`
@@ -99,7 +106,8 @@ const ProfilePosition = styled.div`
   @media (max-width: 1000px) {
     padding: 50px;
     grid-column: 1 / -1;
-    grid-row: 6;
+    grid-row: 5;
+    margin-top: 45px;
   };
 `;
  const Item = styled.div`
@@ -119,7 +127,7 @@ const Profile = () => (
       <ProfileName>
         Hey, <br/> I'm Christian
       </ProfileName>
-    <ProfilePosition>A WEB/MOBILE DEVELOPER <span style={{ lineHeight: '55px', fontSize: '18px', fontWeight: '800'}}> & </span> DIGITAL DESIGNER</ProfilePosition>
+    <ProfilePosition>A FULL STACK JUNIOR WEB DEVELOPER <span style={{ lineHeight: '55px', fontSize: '18px', fontWeight: '200'}}> & </span> UX DESIGNER</ProfilePosition>
     <ContactBox>
       <a href="mailto:christian@barfriends.net?Subject=From%Christian%Firmi%Website">
         <Item>

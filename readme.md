@@ -15,12 +15,12 @@
     
     *[✓] Most proud of projects to individual pages
     
-    *[ ] Explain these are not all of my projects at the end // What else (more)
+    *[] Explain these are not all of my projects at the end // What else (more)
 
 ### Works page
 
     *[] List of all projects
     
-    *[  ]Explain these are not all of my projects at the end // What else (more)
+    *[]Explain these are not all of my projects at the end // What else (more)
   
    
