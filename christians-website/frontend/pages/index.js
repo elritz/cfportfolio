@@ -20,7 +20,7 @@ const Home = () => (
       </Head>
     <Profile />
     <Current />
-    <Projects />
+    {/* <Projects /> */}
   </Outerbox>
 );
 export default Home
