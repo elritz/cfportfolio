@@ -197,6 +197,7 @@ const Outerbox = styled.div`
 `;
  const ProjectItem = styled.div`
   /* background: red */
+  width: 90vw;
   margin-top: 100px;
 `;
  const BarfriendsLink = styled.div`
