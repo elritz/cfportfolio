@@ -20,7 +20,7 @@ const style = '../static/images/skills/styled.png'
 
 
 const OuterBox = styled.div`
-  background: ${props => props.theme.green};
+  /* background: ${props => props.theme.green}; */
   display: grid;
   position: absolute;
   top: 100px; left: 0px; right: 0px;
@@ -30,6 +30,9 @@ const OuterBox = styled.div`
   width: 100%;
   font-family: Roboto Mono,Courier New,Courier,monospace!important;
   overflow: hidden;
+  div {
+    color: black;
+  }
   
   .zero {
     grid-row: 3;
@@ -222,7 +225,7 @@ const NumberLine = styled.div`
   justify-self: end;
   margin-left: -10px;
   div {
-    color: lightgrey;
+    color: black;
     font-weight: 400;
     height: 40px;
     line-height: 40px;
@@ -275,26 +278,26 @@ export default class Skills extends Component {
           <div>33</div> */}
         </NumberLine>
         <Line />
-        <Object className="zero"><Content>class <span style={{color: '#FFFF4F', fontWeight: '400'}}>Christian Palvetzian</span> </Content></Object>
-        <Object className='one' ><Content>ׁ· · · <span style={{color: 'grey', fontWeight: '200'}}>// I'm ambitious and love new challenges :)</span></Content></Object>
+        <Object className="zero"><Content>class <span style={{color: '#FF7000', fontWeight: '400'}}>Christian Firmi</span> </Content></Object>
+        <Object className='one' ><Content>ׁ· · · <span style={{color: 'grey', fontWeight: '200'}}>// I'm self taught dev and I love new challenges :)</span></Content></Object>
         <Object className='two'><Content>ׁ· · · <span style={{color: 'grey', fontWeight: '200'}}>// My variety of skills us continuously expanding!</span></Content></Object>
-        <Object className='three'><Content>ׁ· ·<span> constructor<span style={{color: 'white'}}>()</span> <span style={{color: 'white'}}> &#123;</span> </span></Content></Object>
-        <Object className='four'><Content>ׁ· · · <span style={{color: 'grey', fontWeight: '200'}}> <span style={{color: 'red'}} >this</span>.<span style={{color: '#22DD88'}}>name</span> <span style={{color: 'red'}} >=</span>  <span style={{color: '#22DF33'}}>'Christian Palvetzian'</span></span></Content></Object>
-        <Object className='five'><Content>ׁ· · ·<span style={{color: 'grey', fontWeight: '200'}}> <span style={{color: 'red'}} >this</span>.<span style={{color: '#22DD88'}}>dateofbirth</span> <span style={{color: 'red'}} >=</span>  <span style={{color: '#22DF33'}}>'03251995'</span></span> </Content></Object>
-        <Object className='six'><Content>ׁ· · · <span style={{color: 'grey', fontWeight: '200'}}> <span style={{color: 'red'}} >this</span>.<span style={{color: '#22DD88'}}>email</span> <span style={{color: 'red'}} >=</span>  <span style={{color: '#22DF33'}}>'cpalvetzian@gmail.com'</span> </span></Content></Object>
-        <Object className='seven'><Content>ׁ· ·<span style={{color: 'white'}}> &#125;</span></Content></Object>
-        <Object className='eight'><Content>ׁ· ·<span style={{color: '#FFFF4F'}} > workExperience<span style={{color: 'white'}}>()</span> <span style={{color: 'white'}}> &#123;</span> </span></Content></Object>
-        <Object className='nine'><Content>ׁ· · · ·<span>return<span style={{color: 'white'}}> [</span></span></Content></Object>
-        <Object className='ten'><Content>ׁ· · · · · ·<span><span style={{color: 'white'}}> &#123;</span> <span style={{color: '#22DF33'}}>'2017-now'</span> :  <span style={{color: '#22DF33'}}>'Full-Stack for Pepi's Pizza website '</span>  </span> <span style={{color: 'white'}}>&#125;</span> </Content></Object>
-        <Object className='eleven'><Content>ׁ· · · · · ·<span><span style={{color: 'white'}}> &#123;</span> <span style={{color: '#22DF33'}}>'2018-now'</span> :  <span style={{color: '#22DF33'}}>'Frontend Web and Mobile for Barfriends Inc.'</span>  </span> <span style={{color: 'white'}}>&#125;</span> </Content></Object>
-        <Object className='twelve'><Content>ׁ· · · · · ·<span><span style={{color: 'white'}}> &#123;</span> <span style={{color: '#22DF33'}}>'2018-now'</span> :  <span style={{color: '#22DF33'}}>'Project Manager for Barfriends Inc'</span>  </span> <span style={{color: 'white'}}>&#125;</span> </Content></Object>
-        <Object className='thirteen'><Content>ׁ· · · · · ·<span><span style={{color: 'white'}}> &#123;</span> <span style={{color: '#22DF33'}}>'2018'</span> :  <span style={{color: '#22DF33'}}>'Full-Stack Designer / Developer for personal website'</span>  </span> <span style={{color: 'white'}}>&#125;</span> </Content></Object>
-        <Object className='fourteen'><Content>ׁ· · · ·<span><span style={{color: 'white'}}> ]</span></span></Content></Object>
-        <Object className='firteen'><Content>ׁ· ·<span><span style={{color: 'white'}}> &#125;</span></span></Content></Object>
-        <Object className='sixteen'><Content>ׁ· ·<span style={{color: '#FFFF4F'}} > skills<span style={{color: 'white'}}>()</span> <span style={{color: 'white'}}>&#123;</span> </span></Content></Object>
-        <Object className='seventeen'><Content>ׁ· · · ·<span> return<span style={{color: 'white'}}> [</span> <span style={{color: '#22DF33'}}>'HTML5.0 / CSS3 / Jquery / JS', 'React', 'Next.js', 'Apollo', 'AWS / Prisma', 'Node.js', 'Google API Console, Facebook Developer', 'Jest', 'Enzyme', 'Graphql', 'php', 'mySQL', 'SASS', 'Boostrap / Styled-components / Material UI', 'npm / yarn / brew', 'GIT/CVS', 'Slack / Github / BitBucket / Supernova / Notion' 'Firebase', 'Web Sockets', 'Wordpress', 'Sketch / Photoshop / After Effects', 'Fusions 360 / AutoDesk'</span> <span style={{color: 'white'}}> ]</span> </span></Content></Object>
-        <Object className='eightteen'><Content>ׁ· · · ·<span style={{color: 'white'}}> ] </span></Content></Object>
-        <Object className='nineteen'><Content>ׁ· ·<span><span style={{color: 'white'}}> &#125;</span></span></Content></Object>
+        <Object className='three'><Content>ׁ· ·<span> constructor<span style={{color: 'black'}}>()</span> <span style={{color: 'black'}}> &#123;</span> </span></Content></Object>
+        <Object className='four'><Content>ׁ· · · <span style={{color: 'grey', fontWeight: '200'}}> <span style={{color: 'red'}} >this</span>.<span style={{color: '#22DD88'}}>name</span> <span style={{color: 'red'}} >=</span>  <span style={{color: '#315A51'}}>'Christian Palvetzian'</span></span></Content></Object>
+        <Object className='five'><Content>ׁ· · ·<span style={{color: 'grey', fontWeight: '200'}}> <span style={{color: 'red'}} >this</span>.<span style={{color: '#22DD88'}}>dateofbirth</span> <span style={{color: 'red'}} >=</span>  <span style={{color: '#315A51'}}>'03251995'</span></span> </Content></Object>
+        <Object className='six'><Content>ׁ· · · <span style={{color: 'grey', fontWeight: '200'}}> <span style={{color: 'red'}} >this</span>.<span style={{color: '#22DD88'}}>email</span> <span style={{color: 'red'}} >=</span>  <span style={{color: '#315A51'}}>'cpalvetzian@gmail.com'</span> </span></Content></Object>
+        <Object className='seven'><Content>ׁ· ·<span style={{color: 'black'}}> &#125;</span></Content></Object>
+        <Object className='eight'><Content>ׁ· ·<span style={{color: '#FF7000'}} > workExperience<span style={{color: 'black'}}>()</span> <span style={{color: 'black'}}> &#123;</span> </span></Content></Object>
+        <Object className='nine'><Content>ׁ· · · ·<span>return<span style={{color: 'black'}}> [</span></span></Content></Object>
+        <Object className='ten'><Content>ׁ· · · · · ·<span><span style={{color: 'black'}}> &#123;</span> <span style={{color: '#315A51'}}>'2017-now'</span> :  <span style={{color: '#315A51'}}>'Full-Stack for Pepi's Pizza website '</span>  </span> <span style={{color: 'black'}}>&#125;</span> </Content></Object>
+        <Object className='eleven'><Content>ׁ· · · · · ·<span><span style={{color: 'black'}}> &#123;</span> <span style={{color: '#315A51'}}>'2018-now'</span> :  <span style={{color: '#315A51'}}>'Frontend Web and Mobile for Barfriends Inc.'</span>  </span> <span style={{color: 'black'}}>&#125;</span> </Content></Object>
+        <Object className='twelve'><Content>ׁ· · · · · ·<span><span style={{color: 'black'}}> &#123;</span> <span style={{color: '#315A51'}}>'2018-now'</span> :  <span style={{color: '#315A51'}}>'Project Manager for Barfriends Inc'</span>  </span> <span style={{color: 'black'}}>&#125;</span> </Content></Object>
+        <Object className='thirteen'><Content>ׁ· · · · · ·<span><span style={{color: 'black'}}> &#123;</span> <span style={{color: '#315A51'}}>'2018'</span> :  <span style={{color: '#315A51'}}>'Full-Stack Designer / Developer for personal website'</span>  </span> <span style={{color: 'black'}}>&#125;</span> </Content></Object>
+        <Object className='fourteen'><Content>ׁ· · · ·<span><span style={{color: 'black'}}> ]</span></span></Content></Object>
+        <Object className='firteen'><Content>ׁ· ·<span><span style={{color: 'black'}}> &#125;</span></span></Content></Object>
+        <Object className='sixteen'><Content>ׁ· ·<span style={{color: '#FF7000'}} > skills<span style={{color: 'black'}}>()</span> <span style={{color: 'black'}}>&#123;</span> </span></Content></Object>
+        <Object className='seventeen'><Content>ׁ· · · ·<span> return<span style={{color: 'black'}}> [</span> <span style={{color: '#315A51'}}>'HTML5.0 / CSS3 / Jquery / JS', 'React', 'Next.js', 'Apollo', 'AWS / Prisma', 'Node.js', 'Google API Console, Facebook Developer', 'Jest', 'Enzyme', 'Graphql', 'php', 'mySQL', 'SASS', 'Boostrap / Styled-components / Material UI', 'npm / yarn / brew', 'GIT/CVS', 'Slack / Github / BitBucket / Supernova / Notion' 'Firebase', 'Web Sockets', 'Wordpress', 'Sketch / Photoshop / After Effects', 'Fusions 360 / AutoDesk'</span> <span style={{color: 'black'}}> ]</span> </span></Content></Object>
+        <Object className='eightteen'><Content>ׁ· · · ·<span style={{color: 'black'}}> ] </span></Content></Object>
+        <Object className='nineteen'><Content>ׁ· ·<span><span style={{color: 'black'}}> &#125;</span></span></Content></Object>
       </OuterBox>
     )
   }

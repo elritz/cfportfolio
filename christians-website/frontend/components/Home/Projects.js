@@ -16,6 +16,7 @@ const image2 = '../../static/images/Projects/pepis/image2.png'
 const image3 = '../../static/images/Projects/pepis/image3.png'
 
 
+
 const Outerbox = styled.div`
   background: ${props => props.theme.white};
   position: absolute;
@@ -27,6 +28,7 @@ const Outerbox = styled.div`
   height: 180vh;
   min-height: 1950px;
   margin-top: 1000px;
+  color: black;
   @media (max-width: 1400px) {
     margin-top: 1500px;
   };
@@ -40,7 +42,7 @@ const Outerbox = styled.div`
     font-size: 45px;
     font-weight: 700;
     text-align: center;
-    color: black;
+    color: red;
     text-decoration: underline;
     text-decoration-color: ${props => props.theme.orange};
     @media (max-width: 1400px) {
@@ -199,6 +201,7 @@ const Outerbox = styled.div`
   /* background: red */
   width: 90vw;
   margin-top: 100px;
+  color: black;
 `;
  const BarfriendsLink = styled.div`
   background: ${props => props.theme.orange};
@@ -216,9 +219,10 @@ const Outerbox = styled.div`
   min-width: 200px;
   max-width: 200px;
   margin-top: 70px;
+  
   a {
     /* color: #044D3A; */
-    color: white;
+    color: black;
   }
   @media (max-width: 1400px) {
     grid-row: 6;
@@ -245,7 +249,7 @@ const Outerbox = styled.div`
   margin-top: 50px;
   a {
     /* color: #044D3A; */
-    color: white;
+    color: black;
   }
  @media (max-width: 1400px) {
     grid-row: 12;
@@ -329,6 +333,7 @@ const Projects = () => (
        </Link>
       </PepisLink>
     </ProjectItem>
+
   </Outerbox>
 );
 export default Projects;

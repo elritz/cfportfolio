@@ -14,7 +14,7 @@ const Nav = () => (
           <a>Home</a>
         </Link> */}
         <Link href='/projects'>
-          <a>Works</a>
+          <a>Projects</a>
         </Link>
         <Link href='/skill'>
           <a>Skills</a>

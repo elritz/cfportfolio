@@ -16,7 +16,7 @@ const Outerbox = styled.div`
 const Home = () => (
   <Outerbox>
       <Head>
-        <title>CF | About</title>
+        <title>CF | Designer, Developer & Entrepeneur </title>
       </Head>
     <Profile />
     <Current />
