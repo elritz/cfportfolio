@@ -8,7 +8,7 @@ const insta = '../../static/images/socialmedia/instagramIcon.svg'
 const gmail = '../../static/images/socialmedia/gmailIcon.svg'
 
 const Outerbox = styled.div`
-  background: ${props => props.theme.orange};
+  /* background: ${props => props.theme.orange}; */
   position: absolute;
   top: 100px; right: 0px;
   display: grid;
@@ -47,12 +47,12 @@ const ProfileImage = styled.img`
 const ProfileName = styled.div`
   grid-row: 3;
   grid-column: 4 / -1;
-  color: white;
+  color: black;
   width: 100%; height: 100%;
   font-size: 90px;
   font-weight: 800;
   text-align: left;
-  line-height: 83px;
+  line-height: 78px;
   @media (max-width: 1400px) {
     grid-column: 3 / -1;
   };
@@ -62,13 +62,15 @@ const ProfileName = styled.div`
   };
 `;
 const ProfilePosition = styled.div`
-  background: white;
-  color: ${props => props.theme.orange};
+  background: #FF7000;
+  color: ${props => props.theme.white};
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
   overflow: hidden;
   grid-column: 4 / -1;
   grid-row: 5;
   margin-left: 5px;
-  padding-left: 10px;
+  padding-left: 15px;
   font-size: 17px;
   font-weight: 400;
   line-height: 45px;
@@ -91,7 +93,7 @@ const ProfilePosition = styled.div`
   };
 `;
  const ContactBox = styled.div`
-  grid-column: 4 / 6;
+  grid-column: 4 / 5;
   grid-row: 6 / 7;
   display: flex;
   justify-content: space-between;
@@ -100,12 +102,15 @@ const ProfilePosition = styled.div`
   grid-column-gap: 20px;
   margin-top: 15px;
   @media (max-width: 1400px) {
-    grid-column: 3 / 6;
+    grid-column: 3 / 5;
     grid-row: 7;
   };
   @media (max-width: 1000px) {
     padding: 50px;
     grid-column: 1 / -1;
+    max-width: 500px;
+    margin-left: 50%;
+    transform: translateX(-50%);
     grid-row: 5;
     margin-top: 45px;
   };
@@ -127,18 +132,18 @@ const Profile = () => (
       <ProfileName>
         Hey, <br/> I'm Christian
       </ProfileName>
-    <ProfilePosition>A FULL STACK JUNIOR WEB DEVELOPER <span style={{ lineHeight: '55px', fontSize: '18px', fontWeight: '200'}}> & </span> UX DESIGNER</ProfilePosition>
+    <ProfilePosition>A JUNIOR FULL STACK WEB DEVELOPER <span style={{ lineHeight: '55px', fontSize: '18px', fontWeight: '200'}}> & </span>DESIGNER</ProfilePosition>
     <ContactBox>
       <a href="mailto:christian@barfriends.net?Subject=From%Christian%Firmi%Website">
         <Item>
           <img id="icon" src={gmail} alt=""/>
         </Item>
       </a>
-      <a target="_blank" href="https://www.instagram.com/cfirmi/">
+      {/* <a target="_blank" href="https://www.instagram.com/cfirmi/">
         <Item>
           <img src={insta} alt=""/>
         </Item>
-      </a>
+      </a> */}
       <a target="_blank" href="https://github.com/cfirmi">
         <Item>
           <img src={github} alt=""/>

@@ -42,6 +42,7 @@ injectGlobal`
   html {
     box-sizing: border-box;
     font-size: 10px;
+    color: black;
     }
     * , *:before, *:after {
       box-sizing: inherit;
@@ -53,16 +54,17 @@ injectGlobal`
       font-size: 1.5rem;
       line-height: 2;
       font-family: 'Roboto';
+  
       /* Control background to the page */
       /* background: ${theme.black}; */
-      background: ${theme.green};
+      /* background: ${theme.green}; */
       ::-webkit-scrollbar { 
     display: none; 
 }
     }
     a {
       text-decoration: none;
-      color: ${theme.offWhite};
+      /* color: ${theme.offWhite}; */
     }
 `;
 

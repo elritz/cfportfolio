@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const bficon = '../../../static/images/Works/barfriendsIcon.svg'
 const pepisicon = '../../../static/images/Works/pepisguy.svg'
-
+const NotDone = '../../static/images/NotDone.svg'
 
 const Lists = () => (
   <OuterBox>
@@ -29,6 +29,7 @@ const Lists = () => (
         </li>
       </ul>
     </ListBox>
+    <img style={{height: '500px', marginLeft: '50%', transform: 'translateX(-50%)'}} src={NotDone} alt=""/>
   </OuterBox>
 );
 
@@ -72,7 +73,7 @@ const ListBox = styled.div`
         grid-column: 2 / 4;
         margin: 0;
         font-size: 25px;
-        color: #F6F7F695;
+        color: black;
       }
       h4 {
         /* background: red; */
@@ -82,15 +83,16 @@ const ListBox = styled.div`
         line-height: 20px;
         margin: 0;
         font-weight: 200;
-        color: #F6F7F660;
+        color: black;
       }
       p {
         grid-row: 3 / 5;
         grid-column: 2 / -1;
-        color: #F6F7F695;
+        color: black;
       }
       a {
         /* background: blue; */
+        color: black;
         grid-row: 1 / 2;
         grid-column: 4 / -1;
         text-align: center;

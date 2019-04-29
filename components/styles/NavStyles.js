@@ -4,11 +4,9 @@ const NavStyles = styled.div`
   position: fixed;
   top: -100px; left: 0; right: 0;
   z-index: 100;
-  /* background: red; */
+  background: ${props => props.theme.orange};
 `;
 const LinkBox = styled.div`
-  grid-column: 2 / 5;
-  grid-row: 1;
   margin-top: -35px;
   height: 30px;
   width: 100%;
@@ -19,7 +17,7 @@ const LinkBox = styled.div`
   /* background: green;    */
   a,
   button {
-    color: ${props => props.theme.orange};
+    color: ${props => props.theme.white};
     border: 0;
     margin: 0px 15px;
     align-items: center;
@@ -33,7 +31,7 @@ const LinkBox = styled.div`
     &:before {
       content: '';
       width: 2px;
-      background: ${props => props.theme.orange};
+      background: ${props => props.theme.white};
       height: 100%;
       left: 0;
       position: absolute;
@@ -43,7 +41,7 @@ const LinkBox = styled.div`
     }
     &:after {
       height: 2px;
-      background: ${props => props.theme.orange};;
+      background: ${props => props.theme.white};;
       content: '';
       width: 0;
       position: absolute;
@@ -121,6 +119,8 @@ const LinkName = styled.div`
   };
 `;
 const NavBox = styled.div`
+  height: 60px;
+  min-height: 60px;
   margin: 0 auto;
 `;
 
