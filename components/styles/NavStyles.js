@@ -5,10 +5,11 @@ const NavStyles = styled.div`
   top: -100px; left: 0; right: 0;
   z-index: 100;
   background: ${props => props.theme.orange};
+  box-shadow: ${props => props.theme.bs};
 `;
 const LinkBox = styled.div`
-  margin-top: -35px;
-  height: 30px;
+  margin-top: -25px;
+  height: 45px;
   width: 100%;
   margin-left: 100px;
   transform: translateX(-50%);
