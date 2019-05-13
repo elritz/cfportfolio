@@ -7,7 +7,7 @@ const profilepic = '../../static/images/AboutMe/selfie.jpg'
 const github = '../../static/images/socialmedia/githubIcon.svg'
 const insta = '../../static/images/socialmedia/instagramIcon.svg'
 const gmail = '../../static/images/socialmedia/gmailIcon.svg'
-
+//Test edit for new repo
 const Outerbox = styled.div`
   /* background: ${props => props.theme.orange}; */
   position: absolute;
