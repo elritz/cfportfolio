@@ -19,7 +19,7 @@ const Home = () => (
         <title>CF | Designer, Developer & Entrepeneur </title>
       </Head>
     <Profile />
-    <Current />
+    {/* <Current /> */}
     {/* <Projects /> */}
   </Outerbox>
 );

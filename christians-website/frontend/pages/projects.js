@@ -1,10 +1,11 @@
 import styled from 'styled-components'
 import Head from 'next/head'
-import List from '../components/Works/List'
+// import List from '../components/Works/List'
+import Barfriends from '../components/Works/Barfriends'
 
 const OuterBox = styled.div`
   position: absolute;
-  top: 100px;  left: 0px; right: 0px;
+  top: 110px;  left: 0px; right: 0px;
 `;
 
 const Project = () => (
@@ -12,7 +13,7 @@ const Project = () => (
       <Head>
         <title>CF | Works</title>
       </Head>
-      <List />
+      <Barfriends />
   </OuterBox>
 );
 export default Project;
