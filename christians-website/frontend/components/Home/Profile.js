@@ -19,7 +19,7 @@ const Outerbox = styled.div`
   width: 100vw;
   @media (max-width: 1000px) {
     top: 105px;
-    min-height: 550px; height: 75vh; width: 100%;
+    min-height: 550px; height: 75vh;
     grid-template-rows: 100px 120px 100px 100px 70px 100px;
   };
 `;
@@ -31,7 +31,6 @@ const ProfileImage = styled.img`
   margin-left: 90px;
   height: 100%; width: 100%;
   min-width: 500px;
-  max-width: 500px;
   object-fit: cover;
   @media (max-width: 1400px) {
     grid-column: 1 / 4;
@@ -41,11 +40,12 @@ const ProfileImage = styled.img`
     margin-left: 60px;
   };
   @media (max-width: 1000px) {
-    height: 100%;
-    max-width: 500px;
-    margin-left: 0px;
+    grid-column: 1 / -1;
     grid-row: 1 / -1;
+    margin-left: 0px;
     border-radius: 0px;
+  };
+  @media (max-width: 500px) {
     overflow-x: hidden;
   };
 `;
@@ -65,6 +65,11 @@ const ProfileName = styled.div`
     grid-row: 3;
   };
   @media (max-width: 1000px) {
+    grid-column: 2 / -1;
+    grid-row: 3;
+    font-size: 80px;
+  };
+  @media (max-width: 500px) {
     grid-column: 1 / -1;
     grid-row: 3;
     font-size: 80px;
