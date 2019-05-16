@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="525px" height="506px" viewBox="0 0 525 506" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <g id="personalwebsite" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="t" transform="translate(-85.000000, -2258.000000)">
+            <g id="Group-4" transform="translate(85.000000, 2249.000000)">
+                <text id="Comp:-User-looking-A" font-family="Helvetica" font-size="40" font-weight="normal" letter-spacing="0.523077011" fill="#FFFFFF">
+                    <tspan x="0" y="39">Comp: User looking At Bar</tspan>
+                </text>
+                <g id="CollectionViewCell" transform="translate(0.000000, 73.000000)">
+                    <rect fill="#000000" fill-rule="nonzero" x="0" y="0" width="525" height="442"></rect>
+                    <g id="Join-or-Uber-Button" transform="translate(92.000000, 288.000000)">
+                        <rect id="Rectangle" fill="#D8D8D8" fill-rule="nonzero" x="0" y="0" width="342" height="81"></rect>
+                        <text font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="20" font-weight="400" letter-spacing="0.3788888" fill="#FFFFFF">
+                            <tspan x="77.1405564" y="40">Join or Uber Button</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-3" transform="translate(10.000000, 21.000000)">
+                        <path d="M0,198.5 L505,198.5" id="Seperator-Line" stroke="#D1D1D1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero"></path>
+                        <g id="FriendUserCells">
+                            <g id="UserAtBarCell">
+                                <rect id="Rectangle" stroke="#979797" fill="#D8D8D8" fill-rule="nonzero" x="0.5" y="0.5" width="146" height="146"></rect>
+                                <g id="Group-2">
+                                    <g id="User-Profile-Picture" transform="translate(14.000000, 0.000000)">
+                                        <rect id="Rectangle" fill="#B9B9B9" fill-rule="nonzero" x="0" y="0" width="119" height="119"></rect>
+                                        <text id="Friend-User-Profile" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" letter-spacing="0.2652224" fill="#000000">
+                                            <tspan x="19.2822768" y="26">Friend User </tspan>
+                                            <tspan x="37.0603328" y="43">Profile </tspan>
+                                            <tspan x="34.8487216" y="60">Picture</tspan>
+                                        </text>
+                                    </g>
+                                    <text id="User-Name" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" letter-spacing="0.2652224" fill="#000000">
+                                        <tspan x="35.1084992" y="138">User Name</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                            <g id="UserAtBarCell-Copy" transform="translate(179.000000, 0.000000)">
+                                <rect id="Rectangle" stroke="#979797" fill="#D8D8D8" fill-rule="nonzero" x="0.5" y="0.5" width="146" height="146"></rect>
+                                <g id="Group-2">
+                                    <g id="User-Profile-Picture" transform="translate(14.000000, 0.000000)">
+                                        <rect id="Rectangle" fill="#B9B9B9" fill-rule="nonzero" x="0" y="0" width="119" height="119"></rect>
+                                        <text id="Friend-User-Profile" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" letter-spacing="0.2652224" fill="#000000">
+                                            <tspan x="19.2822768" y="26">Friend User </tspan>
+                                            <tspan x="37.0603328" y="43">Profile </tspan>
+                                            <tspan x="34.8487216" y="60">Picture</tspan>
+                                        </text>
+                                    </g>
+                                    <text id="User-Name" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" letter-spacing="0.2652224" fill="#000000">
+                                        <tspan x="35.1084992" y="138">User Name</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                            <g id="UserAtBarCell-Copy-2" transform="translate(358.000000, 0.000000)">
+                                <rect id="Rectangle" stroke="#979797" fill="#D8D8D8" fill-rule="nonzero" x="0.5" y="0.5" width="146" height="146"></rect>
+                                <g id="Group-2">
+                                    <g id="User-Profile-Picture" transform="translate(14.000000, 0.000000)">
+                                        <rect id="Rectangle" fill="#B9B9B9" fill-rule="nonzero" x="0" y="0" width="119" height="119"></rect>
+                                        <text id="Friend-User-Profile" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" letter-spacing="0.2652224" fill="#000000">
+                                            <tspan x="19.2822768" y="26">Friend User </tspan>
+                                            <tspan x="37.0603328" y="43">Profile </tspan>
+                                            <tspan x="34.8487216" y="60">Picture</tspan>
+                                        </text>
+                                    </g>
+                                    <text id="User-Name" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" letter-spacing="0.2652224" fill="#000000">
+                                        <tspan x="35.1084992" y="138">User Name</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
