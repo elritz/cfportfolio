@@ -14,6 +14,7 @@ const pannel = '../../static/images/Works/pannel.png'
 const pannel2 = '../../static/images/Works/pannel2.png'
 const preview = '../../static/images/Works/preview.png'
 const preview2 = '../../static/images/Works/preview2.png'
+const sketchbg = '../../static/images/Works/sketchbg.png'
 
 export default class Barfriends extends Component {
   render() {
@@ -64,22 +65,35 @@ export default class Barfriends extends Component {
 }
 
   const Process = styled.div`
-  /* background: red; */
-  height: 120%;
+  background-image: url('../../static/images/Works/sketchbg.png');
+  background-repeat: no-repeat;
+  background-size: 1140px 1800px;
+  background-position: 50% 0%;
+  height: 200%;
   margin-top: 25vh;
+  margin-bottom: 35vh;
   text-align: center;
   p {
     font-size: 70px;
     line-height: 50px;
   }
   .textbox1 {
-    margin-top: -80px;
+    background: #121313;
+    /* margin-top: -80px; */
     margin-left: 50%;
     transform: translateX(-50%);
-    font-size: 20px;
-    width: 800px;
+    font-size: 20px; font-weight: 300; line-height: 40px;
+    width: 1000px;
+    color: #FCF8F8;
+    border-radius: 100px;
+    padding: 50px 100px;
+    -webkit-box-shadow: -1px -2px 35px 2px rgba(22,24,24,1);
+    -moz-box-shadow: -1px -2px 35px 2px rgba(22,24,24,1);
+    box-shadow: -1px -2px 35px 2px rgba(22,24,24,1);
     @media (max-width: 1000px) {
+      border-radius: 60px;
       width: 100%;
+      padding: 50px 40px;
     };
   }
   `;
@@ -105,7 +119,7 @@ export default class Barfriends extends Component {
   const Pannel2 = styled.img`
   position: absolute;
   left: 100px;
-  margin-top: 200px;
+  /* margin-top: 200px; */
   z-index: 2;
   @media (max-width: 1000px) {
   margin-top: -0px;
@@ -114,9 +128,10 @@ export default class Barfriends extends Component {
   `;
   const Preview = styled.img`
   width: 60%;
-  margin-top: 50px; margin-left: 50%;
+  margin-top: 150px; 
+  margin-left: 50%;
   transform: translateX(-50%);
-  margin-bottom: 300px;
+  margin-bottom: 100px;
   `;
 
 // Section 1
