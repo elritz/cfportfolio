@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Head from 'next/head'
 import styled from 'styled-components'
 
-const pdf = '../static/images/Resume/cfr.pdf'
+const pdf = '../static/images/Resume/ChristianFirmiResume.pdf'
 
 export default class Resume extends Component {
   render() {

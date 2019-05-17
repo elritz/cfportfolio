@@ -9,7 +9,8 @@ const insta = '../../static/images/socialmedia/instagramIcon.svg'
 const gmail = '../../static/images/socialmedia/gmailIcon.svg'
 //Test edit for new repo
 const Outerbox = styled.div`
-  /* background: ${props => props.theme.orange}; */
+  background-image: url('../../static/images/AboutMe/extraLines.svg');
+  background-size: 100%;
   position: absolute;
   top: 105px; right: 0px;
   display: grid;
@@ -86,6 +87,9 @@ const ProfilePosition = styled.div`
   font-weight: 400;
   line-height: 45px;
   text-align: left;
+  -webkit-box-shadow: -1px -2px 5px 2px rgba(26,26,26,.4);
+  -moz-box-shadow: -1px -2px 5px 2px rgba(26,26,26,.4);
+  box-shadow: -1px -2px 5px 2px rgba(26,26,26,.4);
   @media (max-width: 1400px) {
     padding-left: 0px;
     grid-column: 1 / -1;

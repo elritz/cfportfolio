@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Head from 'next/head'
 import styled from 'styled-components';
 
 const html = '../static/images/skills/html5.png'
@@ -242,6 +243,9 @@ export default class Skills extends Component {
   render() {
     return (
       <OuterBox>
+      <Head>
+        <title>CF | Technologies & Skills</title>
+      </Head>
         <NumberLine>
           <div>01</div>
           <div>02</div>
@@ -279,19 +283,19 @@ export default class Skills extends Component {
         </NumberLine>
         <Line />
         <Object className="zero"><Content>class <span style={{color: '#FF7000', fontWeight: '400'}}>Christian Firmi</span> </Content></Object>
-        <Object className='one' ><Content>ׁ· · · <span style={{color: 'grey', fontWeight: '200'}}>// I'm self taught dev and I love new challenges :)</span></Content></Object>
-        <Object className='two'><Content>ׁ· · · <span style={{color: 'grey', fontWeight: '200'}}>// My variety of skills us continuously expanding!</span></Content></Object>
+        <Object className='one' ><Content>ׁ· · · <span style={{color: 'grey', fontWeight: '200'}}>// I'm a self taught dev and I love new challenges :)</span></Content></Object>
+        <Object className='two'><Content>ׁ· · · <span style={{color: 'grey', fontWeight: '200'}}>// My variety of skills is continuously expanding!</span></Content></Object>
         <Object className='three'><Content>ׁ· ·<span> constructor<span style={{color: 'black'}}>()</span> <span style={{color: 'black'}}> &#123;</span> </span></Content></Object>
-        <Object className='four'><Content>ׁ· · · <span style={{color: 'grey', fontWeight: '200'}}> <span style={{color: 'red'}} >this</span>.<span style={{color: '#22DD88'}}>name</span> <span style={{color: 'red'}} >=</span>  <span style={{color: '#315A51'}}>'Christian Palvetzian'</span></span></Content></Object>
+        <Object className='four'><Content>ׁ· · · <span style={{color: 'grey', fontWeight: '200'}}> <span style={{color: 'red'}} >this</span>.<span style={{color: '#22DD88'}}>name</span> <span style={{color: 'red'}} >=</span>  <span style={{color: '#315A51'}}>'Christian Firmi'</span></span></Content></Object>
         <Object className='five'><Content>ׁ· · ·<span style={{color: 'grey', fontWeight: '200'}}> <span style={{color: 'red'}} >this</span>.<span style={{color: '#22DD88'}}>dateofbirth</span> <span style={{color: 'red'}} >=</span>  <span style={{color: '#315A51'}}>'03251995'</span></span> </Content></Object>
-        <Object className='six'><Content>ׁ· · · <span style={{color: 'grey', fontWeight: '200'}}> <span style={{color: 'red'}} >this</span>.<span style={{color: '#22DD88'}}>email</span> <span style={{color: 'red'}} >=</span>  <span style={{color: '#315A51'}}>'cpalvetzian@gmail.com'</span> </span></Content></Object>
+        <Object className='six'><Content>ׁ· · · <span style={{color: 'grey', fontWeight: '200'}}> <span style={{color: 'red'}} >this</span>.<span style={{color: '#22DD88'}}>email</span> <span style={{color: 'red'}} >=</span>  <span style={{color: '#315A51'}}>'christianfirmi@gmail.com'</span> </span></Content></Object>
         <Object className='seven'><Content>ׁ· ·<span style={{color: 'black'}}> &#125;</span></Content></Object>
         <Object className='eight'><Content>ׁ· ·<span style={{color: '#FF7000'}} > workExperience<span style={{color: 'black'}}>()</span> <span style={{color: 'black'}}> &#123;</span> </span></Content></Object>
         <Object className='nine'><Content>ׁ· · · ·<span>return<span style={{color: 'black'}}> [</span></span></Content></Object>
-        <Object className='ten'><Content>ׁ· · · · · ·<span><span style={{color: 'black'}}> &#123;</span> <span style={{color: '#315A51'}}>'2017-now'</span> :  <span style={{color: '#315A51'}}>'Full-Stack for Pepi's Pizza website '</span>  </span> <span style={{color: 'black'}}>&#125;</span> </Content></Object>
-        <Object className='eleven'><Content>ׁ· · · · · ·<span><span style={{color: 'black'}}> &#123;</span> <span style={{color: '#315A51'}}>'2018-now'</span> :  <span style={{color: '#315A51'}}>'Frontend Web and Mobile for Barfriends Inc.'</span>  </span> <span style={{color: 'black'}}>&#125;</span> </Content></Object>
+        <Object className='ten'><Content>ׁ· · · · · ·<span><span style={{color: 'black'}}> &#123;</span> <span style={{color: '#315A51'}}>'2019-'</span> :  <span style={{color: '#315A51'}}>'Full-Stack for Pepi's Pizza website '</span>  </span> <span style={{color: 'black'}}>&#125;</span> </Content></Object>
+        <Object className='eleven'><Content>ׁ· · · · · ·<span><span style={{color: 'black'}}> &#123;</span> <span style={{color: '#315A51'}}>'2018-2019'</span> :  <span style={{color: '#315A51'}}>'Frontend Web and Mobile for Barfriends Inc.'</span>  </span> <span style={{color: 'black'}}>&#125;</span> </Content></Object>
         <Object className='twelve'><Content>ׁ· · · · · ·<span><span style={{color: 'black'}}> &#123;</span> <span style={{color: '#315A51'}}>'2018-now'</span> :  <span style={{color: '#315A51'}}>'Project Manager for Barfriends Inc'</span>  </span> <span style={{color: 'black'}}>&#125;</span> </Content></Object>
-        <Object className='thirteen'><Content>ׁ· · · · · ·<span><span style={{color: 'black'}}> &#123;</span> <span style={{color: '#315A51'}}>'2018'</span> :  <span style={{color: '#315A51'}}>'Full-Stack Designer / Developer for personal website'</span>  </span> <span style={{color: 'black'}}>&#125;</span> </Content></Object>
+        <Object className='thirteen'><Content>ׁ· · · · · ·<span><span style={{color: 'black'}}> &#123;</span> <span style={{color: '#315A51'}}>'2019'</span> :  <span style={{color: '#315A51'}}>'Full-Stack Designer / Developer for personal website'</span>  </span> <span style={{color: 'black'}}>&#125;</span> </Content></Object>
         <Object className='fourteen'><Content>ׁ· · · ·<span><span style={{color: 'black'}}> ]</span></span></Content></Object>
         <Object className='firteen'><Content>ׁ· ·<span><span style={{color: 'black'}}> &#125;</span></span></Content></Object>
         <Object className='sixteen'><Content>ׁ· ·<span style={{color: '#FF7000'}} > skills<span style={{color: 'black'}}>()</span> <span style={{color: 'black'}}>&#123;</span> </span></Content></Object>
