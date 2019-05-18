@@ -39,7 +39,7 @@ export default class Barfriends extends Component {
             </a>
           <br/>
           <br/>
-          <History src={bfhistory} alt=""/>  
+          <History src={bfhistory} alt="histoiry"/>  
         </div>
         <StyleComp>
           <p style={{marginLeft: '100px', fontSize: '70px', fontWeight: '800', marginBottom: '20vh', textDecoration: 'underline'}}>
@@ -141,6 +141,7 @@ export default class Barfriends extends Component {
   max-width: 700px;
   margin-left: 50%;
   transform: translateX(-50%);
+  z-index: 2;
   @media (max-width: 700px) {
     width: 100vw;
   };
