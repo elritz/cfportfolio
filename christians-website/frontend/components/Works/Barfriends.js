@@ -91,7 +91,11 @@ export default class Barfriends extends Component {
           <Pannel src={pannel} alt="pannel 1"/>
           <Preview src={preview} alt="Login flow"/>
           <div>
-            <h1>Beautiful Design</h1>
+            <h1>Beautiful User Experience Tree for Developers</h1>
+            <p>Even though I love this I never really used it for anything, I found this to be not what I was looking for,
+               I needed a way to speak to someone. This becomes outdated and with so much on my plate there wasn't enough to do this.
+                So I just talk to devs now through video recording or voice call and we fix issues together.
+                 Works well inital recording setup was challenging but it's all done now.</p>
           </div>
           <Preview2 src={userstory} alt="user story"/>
 
@@ -133,6 +137,7 @@ export default class Barfriends extends Component {
   transform: translateX(-50%);
  `;
  const History = styled.img`
+ display: inline-block;
   max-width: 700px;
   margin-left: 50%;
   transform: translateX(-50%);
