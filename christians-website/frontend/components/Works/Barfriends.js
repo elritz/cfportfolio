@@ -92,7 +92,7 @@ export default class Barfriends extends Component {
           <Preview src={preview} alt="Login flow"/>
           <div>
             <h1>Beautiful User Experience Tree for Developers</h1>
-            <p>Even though I love this I never really used it for anything, I found this to be not what I was looking for,
+            <p style={{fontSize: '30px'}}>Even though I love this I never really used it for anything, I found this to be not what I was looking for,
                I needed a way to speak to someone. This becomes outdated and with so much on my plate there wasn't enough to do this.
                 So I just talk to devs now through video recording or voice call and we fix issues together.
                  Works well inital recording setup was challenging but it's all done now.</p>
