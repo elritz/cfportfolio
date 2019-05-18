@@ -11,7 +11,7 @@ const OuterBox = styled.div`
 const Project = () => (
   <OuterBox>
       <Head>
-        <title>CF | Works</title>
+        <title>CF | Projects </title>
       </Head>
       <Barfriends />
   </OuterBox>
