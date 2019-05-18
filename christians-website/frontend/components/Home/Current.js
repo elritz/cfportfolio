@@ -70,7 +70,7 @@ const Outerbox = styled.div`
 const Current = () => (
   <Outerbox>
     <CurrentBox className="current">
-      I am currently freelancing, working on websites for local businesses. I started a company called Barfriends Inc. and built a IOS app for going out. I developed and managed the technology, business and the UI/UX expereiences.
+      I am currently freelancing, working on websites for local businesses. I built a IOS app for going out, and started a company <a href="https//:www.barfriends.com">Barfriends Inc.</a>. I created the UI/UX expereiences, as well as develop and manage the technologies used in the IOS app and website, I'm also operating the business and marketing/promotion.
       <br/>
       <span>Check out my <Link href="/projects"><a style={{ fontWeight: '600', color: '#FF7000'}}>Projects</a></Link> page for more about Barfriends.</span>
     </CurrentBox>
