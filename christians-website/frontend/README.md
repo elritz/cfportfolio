@@ -1,3 +1,3 @@
-# Advanced-React
+# Personal-React-Next.js Frontend Application
 
-frontend
+I want to introduce you to me and I hope that my first personal website lives up to the expectation. 
